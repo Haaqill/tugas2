@@ -21,11 +21,12 @@
         }
 
         .navbar {
-            background: white;
-            border-bottom: 1px solid #e2e8f0;
+            background: black;
+            border-bottom: 1px solid black;
         }
 
         .navbar-brand {
+            color: white;
             font-weight: 700;
             letter-spacing: -0.5px;
         }
@@ -203,15 +204,15 @@
 
         <div class="d-flex gap-2">
 
-            <a href="{{ route('home') }}" class="btn btn-sm btn-outline-dark">
+            <a href="{{ route('home') }}" class="btn btn-sm btn-outline-light">
                 Home
             </a>
 
-            <a href="{{ route('hitung.ipk', ['ip1' => '3.40', 'ip2' => '3.75']) }}" class="btn btn-sm btn-outline-dark">
+            <a href="{{ route('hitung.ipk', ['ip1' => '3.40', 'ip2' => '3.75']) }}" class="btn btn-sm btn-outline-light">
                 Kalkulator IPK
             </a>
 
-            <a href="{{ route('agent', ['tema' => 'ByeByeCleaner']) }}" class="btn btn-sm btn-outline-dark">
+            <a href="{{ route('agent', ['tema' => 'ByeByeCleaner']) }}" class="btn btn-sm btn-outline-light">
                 Project Agent
             </a>
 
